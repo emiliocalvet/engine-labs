@@ -1,0 +1,324 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/***************************** HEADER ******************************/
+
+#cabecalho figure img{
+	height: 60px;
+	width: 130px;
+	padding: 20px 0;
+}
+
+#menu-cabecalho{
+	position: absolute;
+	top: 35px;
+	right: 0;
+}
+
+#menu-cabecalho li{
+	float: left;
+	margin-left: 40px;
+	display: block;
+	padding-top: 6px;
+}
+
+#menu-cabecalho a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: black;
+}
+
+#menu-cabecalho li:last-child{
+	padding-top: 0;
+}
+
+#menu-cabecalho li:last-child a{
+	color: white;
+	background-color: black;
+	border-radius: 15px;
+	text-transform: lowercase;
+	font-size: 16px;
+	display: block;
+	padding: 6px 20px;
+}
+
+#menu-cabecalho li:last-child a:first-letter{
+	text-transform: uppercase;
+}
+
+#menu-cabecalho li a:hover{
+	color: cornflowerblue;;
+}
+
+/**************************************** HELLO ****************************************/
+
+#hello{
+	height: 430px;
+	background-image: url(../img/bg_b.png);
+	background-repeat: round;	
+}
+
+#hello section{
+	color: white;
+	text-align: center;
+}
+
+#hello section h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 110px;
+	padding-top: 120px;
+}
+
+#hello section p{
+	font-size: 40px;
+	font-weight: lighter;
+	margin: 0;
+}
+
+#hello section p::first-letter{
+	text-transform: uppercase;
+}
+
+#hello img{
+	padding: 10px 8px 10px 5px;
+	background-color: rgba(0, 0, 0, 0.8);
+	cursor: pointer;
+}
+
+#bt-anterior{
+	position: absolute;
+	left: 0;
+	top: 280px;
+}
+
+#bt-proximo{
+	position: absolute;
+	right: 0;
+	top: 280px;
+}
+
+/**************************************** CITACOES ****************************************/
+
+#citacoes{
+	border-bottom: 1px solid gray;
+}
+
+#citacoes p{
+	font-size: 35px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+#citacoes p:first-child{
+	padding-top: 80px;
+	line-height: 40px;
+	font-style: italic;
+}
+
+#citacoes p:last-child{
+	margin: 30px 0 90px 0;
+}
+
+#citacoes p:first-child span{
+	text-transform: capitalize;
+}
+
+#citacoes p:last-child span:first-child{
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+#citacoes p:last-child span:first-child::before{
+	content: '- ';
+}
+
+#citacoes p:last-child span:last-child{
+	font-weight: initial;
+	text-transform: uppercase;
+}
+
+/**************************************** FEATURES ****************************************/
+
+#features{
+	height: 590px;
+	border-bottom: 1px solid gray;
+}
+
+#features nav{
+	position: absolute;
+	top: 80px;
+	right: 0;
+}
+
+#features li{
+	float: left;
+}
+
+#features li:nth-child(2),
+#features li:last-child{
+	margin-left: 135px;
+}
+
+#features img{
+	height: 230px;
+	width: 230px;
+}
+
+#features h2,
+#features p{
+	width: 230px;
+}
+
+#features h2{
+	margin-top: 35px;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#features p{
+	margin-top: 25px;
+	text-align: left;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+#features p span{
+	text-transform: capitalize;
+}
+
+/******************************** CARACTERISTICAS ******************************************/
+
+#caracteristicas{
+	border-bottom: 1px solid gray;
+	height: 550px;
+}
+
+#caracteristicas figure{
+	position: absolute;
+	top: 100px;
+	right: 0;
+	height: 370px;
+	width: 360px;
+}
+
+#caracteristicas article{
+	position: absolute;
+	top: 100px;
+	left: 0;
+	height: 370px;
+	width: 580px;
+	text-align: center;
+}
+
+#caracteristicas article h2{
+	margin-top: 60px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+#caracteristicas article h2::first-letter{
+	text-transform: uppercase;
+}
+
+#caracteristicas p{
+	margin-top: 30px;
+	text-align: left;
+	line-height: 22px;
+	font-size: 16px;
+}
+
+#caracteristicas p span{
+	text-transform: capitalize;
+}
+
+#caracteristicas a{
+	position: absolute;
+	bottom: 0;
+	left: 100px;
+	padding: 8px 70px 8px 50px;
+	border-radius: 30px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 25px;
+	color: white;
+	background-color: black;
+	background-image: url(../img/arrow_accordance.png);
+	background-repeat: no-repeat;
+	background-position: 90% 50%;
+}
+
+#caracteristicas a:hover{
+	color: cornflowerblue;;	
+}
+
+/************************************* FOOTER ***************************/
+
+footer{
+	height: 300px;
+	background-image: url(../img/bg_b.png);
+	background-repeat: round;
+}
+
+footer div{
+	height: 300px;
+	color: white;
+}
+
+footer nav{
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+
+footer li{
+	float: left;
+	text-align: left;
+}
+
+footer li:nth-child(2),
+footer li:nth-child(3),
+footer li:nth-child(4),
+footer li:nth-child(5),
+footer li:nth-child(6){
+	margin-left: 110px;	
+}
+
+footer li h2{
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
+
+footer li a{
+	display: block;
+	margin-top: 10px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: lighter;
+	color: white;
+}
+footer li a:hover{
+	color: cornflowerblue;
+}
+
+footer p{
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	text-transform: capitalize;
+	opacity: 0.3;
+}
+
+
